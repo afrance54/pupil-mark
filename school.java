@@ -1,16 +1,29 @@
+
 public class school
 {
+   private Pupil PupilList[];
+   int noOfPupils;
 
    public school()
    {
-
    }
 
-   // top level algorithm
-   public void processMembers()
+   public void processPupils()
    {
-
+       setUpPupilList();
+       TopMark();
+       DisplayDetails ();
    }
 
+   public void setUpPupilList()
+   {
+       // placeholder
+   }
 
+   public void TopMark()
+   {
+       // placeholder
+   }
+   
 }
+

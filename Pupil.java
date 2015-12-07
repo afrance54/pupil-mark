@@ -1,12 +1,12 @@
 
-public class PupilMarks
+public class Pupil
 {
     // 
     private String Forename;
     private String Surname;
     private int PupilMark;
 
-    public PupilMarks()
+    public Pupil()
     {
         // initialise instance variables
         Forename = "";

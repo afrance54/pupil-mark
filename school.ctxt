@@ -2,5 +2,9 @@
 comment0.params=
 comment0.target=school()
 comment1.params=
-comment1.target=void\ processMembers()
-numComments=2
+comment1.target=void\ processPupils()
+comment2.params=
+comment2.target=void\ setUpPupilList()
+comment3.params=
+comment3.target=void\ countOKbmi()
+numComments=4
