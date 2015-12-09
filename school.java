@@ -1,18 +1,20 @@
-
+import javax.swing.JOptionPane;
+import java.io.*;
 public class school
 {
    private Pupil PupilList[];
    int noOfPupils;
-
+     FILEREADCSV TopMarkFile;
    public school()
    {
+      TopMarkFile = new FILEREADCSV();
    }
 
    public void processPupils()
    {
        setUpPupilList();
        TopMark();
-       DisplayDetails ();
+       DisplayDetails();
    }
 
    public void setUpPupilList()
@@ -24,6 +26,8 @@ public class school
    {
        // placeholder
    }
-   
+   public void DisplayDetails()
+   {
+       //placeholder
 }
-
+}
