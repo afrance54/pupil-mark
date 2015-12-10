@@ -27,7 +27,7 @@ public class school
         
         String[] dataRows = TopMarkFile.readCSVtable();
         
-        noOfPupils = dataRows.length - 1;
+        noOfPupils = dataRows.length ;
 
 
         System.out.println("** " + noOfPupils + " rows read.\n\n");
