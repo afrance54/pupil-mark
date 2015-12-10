@@ -18,21 +18,6 @@ public class school
         DisplayDetails();
     }
 
-    public void setUpPupilList()throws IOException
-
-    {
-        System.out.println("School: Pupil Mark update");
-        System.out.println("** Preparing to read data file.");
-
-        
-        String[] dataRows = TopMarkFile.readCSVtable();
-        
-        noOfPupils = dataRows.length ;
-
-
-        System.out.println("** " + noOfPupils + " rows read.\n\n");
-    }
-
     public void TopMark()
     {
     }
@@ -40,4 +25,16 @@ public class school
     public void DisplayDetails()
     {
     }
+
+    public void setUpPupilList()throws IOException
+
+    {
+        System.out.println("School: Pupil Mark update");
+        System.out.println("** Preparing to read data file.");
+
+        String[] dataRows = TopMarkFile.readCSVtable();
+        noOfPupils = dataRows.length ;
+
+        System.out.println("** " + noOfPupils + " rows read.\n\n");
     }
+}
