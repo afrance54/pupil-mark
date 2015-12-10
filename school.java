@@ -2,32 +2,42 @@ import javax.swing.JOptionPane;
 import java.io.*;
 public class school
 {
-   private Pupil PupilList[];
-   int noOfPupils;
-     FILEREADCSV TopMarkFile;
-   public school()
-   {
-      TopMarkFile = new FILEREADCSV();
-   }
+    private Pupil PupilList[];
+    int noOfPupils;
+    FILEREADCSV TopMarkFile;
+    public school()
+    {
+        TopMarkFile = new FILEREADCSV();
+    }
 
-   public void processPupils()
-   {
-       setUpPupilList();
-       TopMark();
-       DisplayDetails();
-   }
+    public void processPupils()throws IOException
 
-   public void setUpPupilList()
-   {
-       // placeholder
-   }
+    {
+        setUpPupilList();
+        TopMark();
+        DisplayDetails();
+    }
 
-   public void TopMark()
-   {
-       // placeholder
-   }
-   public void DisplayDetails()
-   {
-       //placeholder
-}
-}
+    public void setUpPupilList()throws IOException
+
+    {
+        System.out.println("School: Pupil Mark update");
+        System.out.println("** Preparing to read data file.");
+
+        
+        String[] dataRows = TopMarkFile.readCSVtable();
+        
+        noOfPupils = dataRows.length - 1;
+
+
+        System.out.println("** " + noOfPupils + " rows read.\n\n");
+    }
+
+    public void TopMark()
+    {
+    }
+
+    public void DisplayDetails()
+    {
+    }
+    }
