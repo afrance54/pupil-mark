@@ -37,4 +37,4 @@ public class school
 
         System.out.println("** " + noOfPupils + " rows read.\n\n");
     }
-}
+}    
