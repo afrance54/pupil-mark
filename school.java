@@ -18,6 +18,11 @@ public class school
         DisplayDetails();
     }
 
+    
+public void ReadPupilDetails()
+    {
+    }
+
     public void TopMark()
     {
     }
@@ -36,5 +41,12 @@ public class school
         noOfPupils = dataRows.length ;
 
         System.out.println("** " + noOfPupils + " rows read.\n\n");
+
+        PupilList = new Pupil[noOfPupils];
+
+        for  (int i = 0; i < noOfPupils; i++) {
+            PupilList[i] = new Pupil();
+                 PupilList[i].readPupilDetails(dataRows[i+0]);
+        }
     }
-}    
+}

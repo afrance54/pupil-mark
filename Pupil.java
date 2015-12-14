@@ -14,7 +14,7 @@ public class Pupil
         PupilMark = 0;
     }
 
-    public void readMemberDetails(String dataItems)
+    public void readPupilDetails(String dataItems)
     {
 
         // unpack string of row data into fields
