@@ -29,6 +29,14 @@ public void ReadPupilDetails()
 
     public void DisplayDetails()
     {
+  {
+    System.out.println("A listing of all applicants for the next year\n");
+
+    for  (int i = 0; i < noOfPupils; i++) {
+    }
+    System.out.print("\n\n\n");
+}
+
     }
 
     public void setUpPupilList()throws IOException
