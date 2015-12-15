@@ -30,7 +30,7 @@ public void ReadPupilDetails()
     public void DisplayDetails()
     {
   {
-    System.out.println("A listing of all applicants for the next year\n");
+    System.out.println("A listing of all Pupils Marks");
 
     for  (int i = 0; i < noOfPupils; i++) {
     }
