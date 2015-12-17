@@ -16,6 +16,10 @@ public class school
         setUpPupilList();
         TopMark();
         DisplayDetails();
+        hiMark();            
+        calcTopMark();   
+        searchMember();     
+        saveNewMembers();   
     }
 
     
